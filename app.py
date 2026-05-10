@@ -57,3 +57,66 @@ with left:
     <div class='hero-text'>
     Smart technology solutions for modern businesses.
     Reduce costs, automate processes and improve efficiency.
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.button("Learn More")
+
+with right:
+    st.image("assets/hero.jpeg")
+
+# ======================================================
+# FEATURES
+# ======================================================
+
+st.markdown("<h2 class='section-title'>Our Services</h2>", unsafe_allow_html=True)
+
+c1, c2, c3 = st.columns(3)
+
+with c1:
+    st.markdown("""
+    <div class='card'>
+        <h3>Automation</h3>
+        <p>Automated intelligent systems.</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+with c2:
+    st.markdown("""
+    <div class='card'>
+        <h3>Analytics</h3>
+        <p>Real time dashboards and reports.</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+with c3:
+    st.markdown("""
+    <div class='card'>
+        <h3>AI Vision</h3>
+        <p>Computer vision and image analysis.</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+# ======================================================
+# CTA
+# ======================================================
+
+st.markdown("""
+<div class='cta'>
+    <h1>Ready to modernize your company?</h1>
+</div>
+""", unsafe_allow_html=True)
+
+st.button("Contact Us")
+
+# ======================================================
+# FOOTER
+# ======================================================
+
+st.divider()
+
+st.markdown("""
+<div class='footer'>
+© 2026 My Technology
+</div>
+""", unsafe_allow_html=True)
